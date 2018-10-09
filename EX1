@@ -1,0 +1,114 @@
+
+import java.awt.*;  
+import java.awt.event.*;
+ 
+public class KeyInSetColor extends Frame implements AdjustmentListener, ActionListener
+{
+   static KeyInSetColor frm=new KeyInSetColor();
+   
+   static Scrollbar scr1=new Scrollbar(Scrollbar.HORIZONTAL);//捲軸方向
+   static Scrollbar scr2=new Scrollbar(0);
+   static Scrollbar scr3=new Scrollbar(0);
+   
+   static Label lab1=new Label("紅:");  //文字
+   static Label lab2=new Label("綠:");
+   static Label lab3=new Label("藍:");
+   
+   static TextField txt1=new TextField("127");   //輸入框初始值
+   static TextField txt2=new TextField("127");
+   static TextField txt3=new TextField("127");
+   
+   int red,green,blue;
+   
+   static Label lab=new Label();
+   
+   public static void main(String args[])
+   {
+      frm.setLayout(null);          //JAVA視窗區
+      frm.setTitle("SetColor");
+      frm.setSize(410,250); 
+      frm.setLocation(350,250);
+      frm.setBackground(Color.ORANGE);
+      scr1.addAdjustmentListener(frm);  
+      scr1.setValues(127,10,0,265);     //捲軸1數值設定值
+      
+      scr2.addAdjustmentListener(frm);  
+      scr2.setValues(127,10,0,265);     //捲軸2數值設定值
+      
+      scr3.addAdjustmentListener(frm);  
+      scr3.setValues(127,10,0,265);     //捲軸3數值設定值
+      
+      scr1.setBounds(30,40,100,20); //等同 setSize(100,20) + setLoaction(30,40)
+      scr2.setBounds(150,40,100,20);  //捲軸2位置長寬設置(X,Y,寬,高)
+      scr3.setBounds(270,40,100,20);  //捲軸3位置長寬設置(X,Y,寬,高)
+      
+      lab1.setBounds(30,70,20,20);   //輸入框1位置長寬設置(X,Y,寬,高)
+      lab2.setBounds(150,70,20,20);  //輸入框2位置長寬設置(X,Y,寬,高)
+      lab3.setBounds(270,70,20,20);  //輸入框3位置長寬設置(X,Y,寬,高)
+      
+      txt1.setBounds(60,70,40,20);
+      txt2.setBounds(180,70,40,20);
+      txt3.setBounds(300,70,40,20);
+            
+      lab.setBounds(90,120,240,80);
+      
+      frm.add(scr1);
+      frm.add(scr2);
+      frm.add(scr3);
+      
+      frm.add(lab);
+      frm.add(lab1);
+      frm.add(lab2);
+      frm.add(lab3);
+      
+      
+      frm.add(txt1);
+      frm.add(txt2);
+      frm.add(txt3);
+      
+      txt1.addActionListener(frm); 
+      txt2.addActionListener(frm);
+      txt3.addActionListener(frm);
+      
+      
+      lab.setBackground(new Color(127,127,127));
+      
+      frm.addWindowListener(new WindowAdapter()
+        { public void windowClosing(WindowEvent e)
+            {System.exit(0);}});
+            
+      frm.setVisible(true);  
+   }
+   
+   public void adjustmentValueChanged(AdjustmentEvent e)
+   {
+      red=scr1.getValue();
+      green=scr2.getValue();
+      blue=scr3.getValue();
+      
+      lab.setBackground(new Color(red,green,blue));
+      
+      txt1.setText(String.valueOf((red)));
+      txt2.setText(Integer.toString(green));
+      txt3.setText(Integer.toString(blue));
+   } 
+   
+   public void actionPerformed(ActionEvent e)
+   {
+      TextField keyintxt=(TextField) e.getSource();
+      
+            if(keyintxt==txt1)           
+              red=Integer.parseInt(txt1.getText());
+           
+            else if(keyintxt==txt2)     
+              green=Integer.parseInt(txt2.getText());
+            
+            else if(keyintxt==txt3)     
+                blue=Integer.parseInt(txt3.getText()); 
+        
+        
+                
+      lab.setBackground(new Color(red,green,blue));
+   } 
+   
+}
