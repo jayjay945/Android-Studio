@@ -1,4 +1,4 @@
-Widget2_APP	     3個按鈕按顯示圖片含LOG,下方顯示訊息
+Widget2_APP	     3個按鈕按顯示圖片含LOG,下方顯示圖片說明
 	
 左方res-drawable	複製3張圖片到res-drawable
 Common-TextView	  拉testview
