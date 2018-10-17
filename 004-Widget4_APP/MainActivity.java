@@ -176,8 +176,8 @@ public class MainActivity extends Activity {
         okButton = (Button) findViewById(R.id.button_ok);
         cancelButton = (Button) findViewById(R.id.button_cancel);
 
-        okButton.setOnClickListener(new ButtonClick()); //Button 按下監聽
-        cancelButton.setOnClickListener(new ButtonClick()); //Button 按下監聽
+        okButton.setOnClickListener(new ButtonClick()); //Button 按下監聽宣告,ButtonClick可以自行定義名稱
+        cancelButton.setOnClickListener(new ButtonClick()); //Button 按下監聽宣告,ButtonClick可以自行定義名稱
         //004-OK,CANCEL,Button 元件宣告區end
 
     }   // end of onCreate()
