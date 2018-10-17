@@ -1,21 +1,19 @@
 Widget4_APP	                                點菜單
-Layouts-LinearLayout(vertical)	            拉放上下的layout框
-Buttons-RadioGroup                        	radioGroup 用來多選1視窗用
-Buttons-RadioButton	                        多選1,要用之前要先拉radioGroup
+Layouts-LinearLayout(vertical)	                拉放上下的layout框
+Buttons-RadioGroup                        	radioGroup 用來多選1視窗用(要設ID)
+Buttons-RadioButton	                        多選1,要用之前要先拉radioGroup(要設ID)
 Common-TextView	
 Layouts-LinearLayout(horizontal)           	拉放左右的layout框
-Buttons-CheckBox X2                       	打勾框可多選
-Layouts-LinearLayout(horizontal)	          拉放左右的layout框
-Buttons-CheckBox X2	                        打勾框可多選
+Buttons-CheckBox X2                       	打勾框可多選(要設ID)(要設ID)
+Layouts-LinearLayout(horizontal)	        拉放左右的layout框
+Buttons-CheckBox X2	                        打勾框可多選(要設ID)
 	
 Buttons-RadioButton	
 Common-TextView	
-Layouts-LinearLayout(horizontal)	          拉放左右的layout框
-Buttons-CheckBox X2	                        打勾框可多選
-Layouts-LinearLayout(horizontal)	          拉放左右的layout框
-Buttons-CheckBox X2	                        打勾框可多選
-	
-Layouts-LinearLayout(vertical)	
-	
-Common-ButtonX2                           	背景色在background
-Common-TextView	                            點完下方說明框
+Layouts-LinearLayout(horizontal)	        拉放左右的layout框
+Buttons-CheckBox X2	                        打勾框可多選(要設ID)
+Layouts-LinearLayout(horizontal)	        拉放左右的layout框
+Buttons-CheckBox X2	                        打勾框可多選(要設ID)
+
+Common-ButtonX2                           	背景色在background(要設ID)
+Common-TextView	                                點完下方說明框(要設ID)
