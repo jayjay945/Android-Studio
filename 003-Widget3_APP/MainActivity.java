@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
             switch (v.getId())
             {
                 case R.id.imageButton_id1:
-                    Toast.makeText(context, "Image button 1.", Toast.LENGTH_SHORT).show(); //notifyMessage 螢幕下方顯示訊息,context可以自行定義,紅字要Create field到MainActivity
+                    Toast.makeText(context, "Image button 1.", Toast.LENGTH_SHORT).show(); //notifyMessage 螢幕下方顯示訊息
                     break;
                 case R.id.imageButton_id2:
                     Toast.makeText(context, "Image button 2.", Toast.LENGTH_SHORT).show();
