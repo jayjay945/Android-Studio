@@ -6,7 +6,7 @@ Text-Plain Text	                      Text輸入外框,可以數字或phone或e-
 			
 Layouts-LinearLayout(horizontal)	    拉放左右的layout框		
 Common-TextView			
-Text-Plain                            Text	Text輸入外框,可以數字或phone或e-mail		ems可以限制輸入幾個字
+Text-Plain Text    	               Text輸入外框,可以數字或phone或e-mail		ems可以限制輸入幾個字
 			                                inputtype選date型式
 Common-TextView			
 Containers-ScrollView	                可上下滑動的滾動文字顯示框		
