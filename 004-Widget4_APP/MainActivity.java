@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealAFlag){            //如果在Meal A
-                    ColaFlag = isChecked;  //ColaFlag上方要宣告boolean 動作還不太確定,按一下true,在按一下變false
+                    ColaFlag = isChecked;  //按一下打勾=true,在按一下沒打勾=false
                     Toast.makeText(context, "己按下COLA", Toast.LENGTH_SHORT).show(); //notifyMessage 螢幕下方顯示訊息
                 }else {
                     checkCola.setChecked(false);  //如果不在Meal A按下才會跑這段
@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealAFlag){
-                    SaladAFlag = isChecked;
+                    SaladAFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                     Toast.makeText(context, "己按下SALADA", Toast.LENGTH_SHORT).show(); //notifyMessage 螢幕下方顯示訊息
                 }else {
                     checkSaladA.setChecked(false);
@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealAFlag){
-                    FrenchFiresFlag = isChecked;
+                    FrenchFiresFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                 }else {
                     checkFrenchfires.setChecked(false);
                     FrenchFiresFlag = false;
@@ -110,7 +110,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealAFlag){
-                    ApplePieFlag = isChecked;
+                    ApplePieFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                 }else {
                     checkApplePie.setChecked(false);
                     ApplePieFlag = false;
@@ -126,7 +126,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealBFlag){
-                    SoupFlag = isChecked;
+                    SoupFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                 }else {
                     checkSoup.setChecked(false);
                     SoupFlag = false;
@@ -138,7 +138,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealBFlag){
-                    SaladBFlag = isChecked;
+                    SaladBFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                 }else {
                     checkSaladB.setChecked(false);
                     SaladBFlag = false;
@@ -150,7 +150,7 @@ public class MainActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (mealBFlag){
-                    IceCreamFlag = isChecked;
+                    IceCreamFlag = isChecked; //按一下打勾=true,在按一下沒打勾=false
                 }else {
                     checkIceCream.setChecked(false);
                     IceCreamFlag = false;
