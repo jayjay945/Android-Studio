@@ -12,13 +12,13 @@ Text-Plain Text    	                    Text輸入外框,可以數字或phone或
 			                    inputtype選date型式
 Common-TextView			
 Containers-ScrollView	                    可上下滑動的滾動文字顯示框		
-Layouts-LinearLayout(vertical)	           拉放上下的layout框		
+Layouts-LinearLayout(vertical)	            拉放上下的layout框		
 Text-Plain Text	                      Text輸入外框,可以數字或phone或e-mail		inputtype選MultiLine型式(可以換行)
 		                                 	hint
-                                     	左方res-values-strings.xml	可以到左方定義string	
+                                       	左方res-values-strings.xml	可以到左方定義string	
 	                                    <string name="input_hint">Please input text</string>		
 			
 Common-ButtonX2	                      背景色在background		
 			
-Containers-ScrollView	                可上下滑動的滾動文字顯示框		
-Layouts-LinearLayout(vertical)	      拉放上下的layout框		
+Containers-ScrollView	                    可上下滑動的滾動文字顯示框		
+Layouts-LinearLayout(vertical)	           拉放上下的layout框		
