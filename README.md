@@ -8,7 +8,7 @@
 003-Widget3_APP	==> 3按鍵-3文字說明-6圖片按鍵(ImageButton)
 
 004-Widget4_APP	==> 1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;8多選打勾(CheckBox)-2文字-2按鍵-1文字說明
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;8多選打勾(CheckBox)-2文字-2按鍵-1文字說明
 
 005-Widget5_APP	==> 
 
