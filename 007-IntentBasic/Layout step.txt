@@ -2,9 +2,9 @@
 Layout指令                                   說明
 ---------------------------------------------------------------------------------
 
-Common-TextView	          標題	字如果沒置中gravity可調整
+Common-TextView	        標題	字如果沒置中gravity可調整
 Buttons-ImageButtonX2       	如果縮小,圖變了可以在scaleType裡調成centerCrop	
-Common-TextView	          下方說明(設ID)	字如果沒置中gravity可調整
+Common-TextView	        下方說明(設ID)	字如果沒置中gravity可調整
 		
                               新增二個頁面	左方java-main的目錄右鍵-new-	
                             	Activity-empty activity	
