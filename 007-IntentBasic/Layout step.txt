@@ -11,8 +11,8 @@ Common-TextView	        下方說明(設ID)	字如果沒置中gravity可調整
                                Backwards勾拿掉	
 		
 編輯drink layout		
-Common-TextView	標題	
-Common-ButtonX2	NEXT Back	
+Common-TextView	        標題	
+Common-ButtonX2	        NEXT Back	
 		
 編輯maincouse layout		
 Common-TextView		
