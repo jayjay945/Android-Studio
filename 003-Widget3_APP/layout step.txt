@@ -1,10 +1,10 @@
 Widget3_APP                     	3按鈕,3TEXT,6圖按鈕顯示notifyMessage
-	
+Layout指令                        說明	
 Layouts-LinearLayout(horizontal)	拉放左右的layout框
-Common-ButtonX3	                  拉左右Button(要設ID)
+Common-ButtonX3	                拉左右Button(要設ID)
 	
 Layouts-LinearLayout(vertical)   	拉放上下的layout框
-Common-TextView	                  拉上下TextView(要設ID)
+Common-TextView	                拉上下TextView(要設ID)
 	
 Legacy-GridLayout	                拉有格點的layout
 Buttons-ImageButton             	注意要選擇左上第1格
