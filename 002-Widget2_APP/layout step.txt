@@ -6,4 +6,4 @@ Common-TextView	  拉testview
 	
 Common-ButtonX3	  拉button(要設ID)
 	
-Common-TextView  	   拉testview如果要改變文字(要設ID)
+Common-TextView  	  拉testview如果要改變文字(要設ID)
