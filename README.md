@@ -5,9 +5,9 @@
 
 003-Widget3_APP	==> 3按鍵-3文字說明-6圖片按鍵(ImageButton)
 
-004-Widget4_APP	==> 1文字-1按鍵1圖片
+004-Widget4_APP	==> 1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-8多選打勾(CheckBox)
 
-005-Widget5_APP	==> 1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-8多選打勾(CheckBox)
+005-Widget5_APP	==> 1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-8多選打勾(CheckBox)-2文字-2按鍵-1文字說明
 
 006-Widget6_APP	==> 1文字1按鍵1圖片
 
