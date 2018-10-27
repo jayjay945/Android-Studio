@@ -1,6 +1,6 @@
 Widget5_APP	                          3個輸入框,按OK在下方說明顯示內容(可滑動)
 Layout指令                                   說明
-Common-TextView	                  標題		
+Common-TextView	                   標題		
 Layouts-LinearLayout(horizontal)	    拉放左右的layout框		
 Common-TextView			
 Text-Plain Text	                    Text輸入外框,可以數字或phone或e-mail		ems可以限制輸入幾個字
@@ -8,10 +8,10 @@ Text-Plain Text	                    Text輸入外框,可以數字或phone或e-ma
 Layouts-LinearLayout(horizontal)	    拉放左右的layout框		
 Common-TextView			
 Text-Plain Text    	                    Text輸入外框,可以數字或phone或e-mail		ems可以限制輸入幾個字
-			                         inputtype選date型式
+			                      inputtype選date型式
 Common-TextView			
-Containers-ScrollView	                  可上下滑動的滾動文字顯示框		
-Layouts-LinearLayout(vertical)	        拉放上下的layout框		
+Containers-ScrollView	                    可上下滑動的滾動文字顯示框		
+Layouts-LinearLayout(vertical)	           拉放上下的layout框		
 Text-Plain Text	                      Text輸入外框,可以數字或phone或e-mail		inputtype選MultiLine型式(可以換行)
 		                                 	hint
                                      	左方res-values-strings.xml	可以到左方定義string	
