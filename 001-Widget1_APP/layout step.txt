@@ -3,5 +3,5 @@ Layout指令                   說明
 
 左方res-drawable	   複製2張圖片到res-drawable
 Common-TextView 	   拉testview
-Common-Button	       拉button(要設ID)
+Common-Button	          拉button(要設ID)
 Common-Imageview	   圖片顯示拉imageview(要設ID)
