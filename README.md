@@ -1,5 +1,5 @@
 # Android-Studio
-序&emsp;Project--------             Layout 元件
+序&emsp;&emsp;Project--------             Layout 元件
 
 001-Widget1_APP ==> 1文字(TextView)-1按鍵(Button)-1圖片(ImageView)
 
