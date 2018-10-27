@@ -7,7 +7,7 @@
 
 004-Widget4_APP	   1文字-1按鍵1圖片
 
-005-Widget5_APP	   1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-8多選打勾(C
+005-Widget5_APP	   1文字-1多選1框架(RadioGroup)-2多選1按鍵(RadioButton)-8多選打勾(CheckBox)
 
 006-Widget6_APP	   1文字1按鍵1圖片
 
