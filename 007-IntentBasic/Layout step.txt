@@ -1,3 +1,7 @@
+007-IntentBasic 3個頁面
+Layout指令                                   說明
+---------------------------------------------------------------------------------
+
 Common-TextView	              標題	字如果沒置中gravity可調整
 Buttons-ImageButtonX2       	如果縮小,圖變了可以在scaleType裡調成centerCrop	
 Common-TextView	              下方說明(設ID)	字如果沒置中gravity可調整
