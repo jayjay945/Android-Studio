@@ -1,9 +1,9 @@
 Widget2_APP	     3個按鈕按顯示圖片含LOG,下方顯示圖片說明
 Layout指令                   說明
 	
-左方res-drawable	複製3張圖片到res-drawable
+左方res-drawable	  複製3張圖片到res-drawable
 Common-TextView	  拉testview
 	
 Common-ButtonX3	  拉button(要設ID)
 	
-Common-TextView  	拉testview如果要改變文字(要設ID)
+Common-TextView  	   拉testview如果要改變文字(要設ID)
