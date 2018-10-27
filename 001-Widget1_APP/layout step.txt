@@ -1,5 +1,5 @@
-1文字1按鍵1圖片
-
+1文字1按鍵1圖片<p>
+Layout指令&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;說明<>
 左方res-drawable	複製2張圖片到res-drawable
 Common-TextView 	拉testview
 Common-Button	     拉button(要設ID)
