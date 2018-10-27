@@ -1,5 +1,6 @@
 Widget5_APP	                          3個輸入框,按OK在下方說明顯示內容(可滑動)
 Layout指令                                   說明
+---------------------------------------------------------------------------------
 Common-TextView	                    標題		
 Layouts-LinearLayout(horizontal)	    拉放左右的layout框		
 Common-TextView			
