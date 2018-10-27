@@ -1,1 +1,23 @@
-
+Widget6_APP	2輸入框,多選1,打勾多選,OK,Cancel.下方顯示說明
+	
+Common-TextView	標題
+Layouts-LinearLayout(vertical)	拉放上下的layout框
+	
+Layouts-LinearLayout(horizontal)	
+Common-TextView	ID:
+Text-Plain Text	內容
+	
+Layouts-LinearLayout(horizontal)	拉放左右的layout框
+Common-TextView	NAME:
+Text-Plain Text	內容
+	
+Layouts-LinearLayout(vertical)	拉放上下的layout框
+Buttons-RadioGroup	radioGroup 用來多選1視窗用
+Buttons-RadioButton	多選1,要用之前要先拉radioGroup
+	
+Layouts-LinearLayout(horizontal)	拉放左右的layout框
+Buttons-CheckBoxX3	
+	
+Common-ButtonX2	OK跟Cancel 按鈕
+	
+Common-TextView	
